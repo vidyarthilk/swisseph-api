@@ -1,13 +1,25 @@
 {
   "name": "swisseph-api",
   "version": "1.0.0",
-  "description": "Swiss Ephemeris API for Panchang and Kundli",
+  "description": "Gujarati Panchang API using Swiss Ephemeris",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.18.2"
-  }
+    "express": "^4.18.2",
+    "sweph": "^0.4.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "swisseph",
+    "panchang",
+    "kundli",
+    "gujarati",
+    "ephemeris"
+  ],
+  "author": "Vidyarthi Lalkitab",
+  "license": "ISC"
 }
