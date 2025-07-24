@@ -9,7 +9,7 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
-const PORT = process.env.PORT || 10000;
+const PORT = process.env.PORT || 3000;
 
 // Set Swiss Ephemeris data path (files must be inside 'ephe' folder at root)
 const ephPath = path.join(__dirname, 'ephe');
