@@ -1,6 +1,7 @@
 {
   "name": "swisseph-api",
   "version": "1.0.0",
+  "description": "Swiss Ephemeris API for Panchang and Kundli",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
